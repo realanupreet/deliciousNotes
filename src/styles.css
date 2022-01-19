@@ -1,0 +1,42 @@
+body {
+  max-width: 1024px;
+  width: 90%;
+  margin: 2em auto;
+  background-color: rgb(27, 18, 105);
+}
+* {
+  font-family: "Spline Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+.app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 0em;
+  gap: 2em;
+  justify-content: center;
+}
+.note {
+  resize: none;
+  height: 200px;
+  border: none;
+  background-color: rgb(208, 214, 247);
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 1em;
+  color:rgb(3, 3, 49);
+}
+.add-note {
+  height: 200px;
+  border-radius: 0.2em;
+  border: none;
+  font-size: 5em;
+  background-color: rgba(167, 150, 243, 0.966);
+  color: rgb(22, 5, 70);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.add-note:hover {
+  background-color: rgb(255, 255, 255);
+}
